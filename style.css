@@ -1,0 +1,27 @@
+html {
+    background-color: black;
+}
+
+body {
+    margin:200px; background-color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.rectangle {
+  height: 350px;
+  width: 850px;
+  background-color: blue;
+  padding: 150px;
+  background-clip: content-box;
+  box-shadow: inset 0 0 0 150px lightgreen;
+  border: 150px solid green;
+  margin: 20px;
+}
+
